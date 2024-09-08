@@ -38,5 +38,5 @@ pe "sudo kubectl create -f nginx-deployment.yaml"
 
 pe "sudo kubectl create -f locust-deployment.yaml"
 
-pe "kubectl get pods"
+pe "sudo kubectl get pods"
 
